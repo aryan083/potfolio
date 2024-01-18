@@ -18,8 +18,8 @@ I'm a passionate Learner from India.
 
 ## 🚀 My Projects
 
-- [Project 1](https://github.com/your-username/project-1)
-- [Project 2](https://github.com/your-username/project-2)
+- [Python VLAB](https://github.com/aryan083/P-ython-project)
+- [Exam DashBorad](https://github.com/aryan083/for_JAVA_END_SEM-2_PROJECT)
 
 ## 💡 A Quote:
 <div align="center"> 
@@ -29,7 +29,9 @@ I'm a passionate Learner from India.
 <!-- Custom section for additional information -->
 <details>
   <summary>⚡ More about me</summary>
-
+  <p>
+    Hello Again! I'm Aryan Mahida currently a student at Marwadi University. A enthusiastic learner 
+  </p>
   <!-- Add more details about yourself -->
 
 </details>
