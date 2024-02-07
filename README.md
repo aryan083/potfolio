@@ -4,7 +4,7 @@ I'm a passionate Learner from India.
 ## 🔧 Technologies & Tools
 <div align="center">
   
-[![My Skills](https://skillicons.dev/icons?i=c,cs,cpp,java,jquery,git,github,js,html,css,react,nextjs,nodejs,php,py,r,tailwind,&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,cs,cpp,java,jquery,git,github,js,html,css,react,nextjs,nodejs,php,py,r,tailwind,bootstrap,arduino,spring,&perline=10)](https://skillicons.dev)
 </div>
 <!-- Add more badges for your other skills -->
 
