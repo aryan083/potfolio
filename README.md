@@ -1,6 +1,8 @@
 # Hi there, I'm Aryan Mahida 👋
-
-I'm a passionate Learner from India.
+## About me 
+<p>I'm a passionate Learner from India.Innovative Java and Web Developer with 2 years of experience in building impactful and user-friendly projects. 
+Specializes in back-end technologies and passionate about cutting-edge development techniques in both hardware and software.
+Besides all that have good grip over data Analysis using multiple programming languages and data analytics too </p>
 ## 🔧 Technologies & Tools
 <div align="center">
   
@@ -40,7 +42,8 @@ I'm a passionate Learner from India.
 <details>
   <summary>⚡ More about me</summary>
   <p>
-    Hello Again! I'm Aryan Mahida currently a student at Marwadi University. A enthusiastic learner 
+    Hello Again! I'm Aryan Mahida currently a student at Marwadi University. A enthusiastic learner persuing my <b> beacholors in Inforamtion and Communication Technology</b>.
+    Currently I'm in my second year
   </p>
   <!-- Add more details about yourself -->
 
