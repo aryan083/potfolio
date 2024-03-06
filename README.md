@@ -11,7 +11,7 @@ Besides all that have good grip over data Analysis using multiple programming la
 </div>
 <!-- Add more badges for your other skills -->
 
-## 📊 GitHub Stats
+## 📊Stats
 <div>
 
   <div>
@@ -23,8 +23,13 @@ Besides all that have good grip over data Analysis using multiple programming la
   <div>
     <img height="175" width=100% src="https://github-readme-streak-stats.herokuapp.com/?user=aryan083&theme=dark" alt="GitHub Stats" />&nbsp;&nbsp;
   </div>
-
-</div>
+  
+  <div>
+    
+    [![Leetcode Stats](https://leetcard.jacoblin.cool/jacoblincool?ext=activity)](https://leetcode.com/aryan_mahida)
+    
+  </div>
+  </div>
 
 
 
@@ -57,6 +62,7 @@ Besides all that have good grip over data Analysis using multiple programming la
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-mahida-982749251)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryanmahida2@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ary.an_mahida)
 
 ## 🔔 Vsistor Count
 ![Visitor Count](https://profile-counter.glitch.me/aryan083/count.svg)
