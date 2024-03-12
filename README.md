@@ -24,11 +24,6 @@ Besides all that have good grip over data Analysis using multiple programming la
     <img height="175" width=100% src="https://github-readme-streak-stats.herokuapp.com/?user=aryan083&theme=dark" alt="GitHub Stats" />&nbsp;&nbsp;
   </div>
   
-  <div>
-    
-    [![Leetcode Stats](https://leetcard.jacoblin.cool/jacoblincool?ext=activity)](https://leetcode.com/aryan_mahida)
-    
-  </div>
   </div>
 
 
