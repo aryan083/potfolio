@@ -22,9 +22,22 @@ Besides all that have good grip over data Analysis using multiple programming la
     </div>
   <div>
     <img height="175" width=100% src="https://github-readme-streak-stats.herokuapp.com/?user=aryan083&theme=dark" alt="GitHub Stats" />&nbsp;&nbsp;
-  </div>
+
+</div>
+<div style="display: flex;
+justify-content: center;
+align-items: center;">
+
+<img height="175" width=100% src="https://leetcard.jacoblin.cool/aryan_mahida?theme=dark&font=IBM%20Plex%20Mono&ext=activity" alt="LeetCode Stats" />&nbsp;&nbsp;
+
+
+
   
+</div>
+
   </div>
+
+
 
 
 
