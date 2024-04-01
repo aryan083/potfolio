@@ -34,11 +34,13 @@ align-items: center;">
 
   
 </div>
+
+  </div>
+
+
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/17371285">
     <script src="https://public.flourish.studio/resources/embed.js"></script>
     </div>
-  </div>
-
 
 
 
