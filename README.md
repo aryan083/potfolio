@@ -69,7 +69,7 @@ Besides all that have good grip over data Analysis using multiple programming la
   <summary>⚡ More about me</summary>
   <p>
     Hello Again! I'm Aryan Mahida currently a student at Marwadi University. A enthusiastic learner persuing my <b> beacholors in Inforamtion and Communication Technology</b>.
-    Currently I'm in my second year
+    Currently I'm in my third year
   </p>
   <!-- Add more details about yourself -->
 
