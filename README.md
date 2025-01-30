@@ -58,7 +58,7 @@ Besides all that have good grip over data Analysis using multiple programming la
 ## 🚀 My Projects
 
 - [Python VLAB](https://github.com/aryan083/P-ython-project)
-- [Exam DashBorad](https://github.com/aryan083/for_JAVA_END_SEM-2_PROJECT)
+- [Exam Dashboard](https://github.com/aryan083/for_JAVA_END_SEM-2_PROJECT)
 
 ## 💡 A Quote:
 <div align="center"> 
@@ -69,7 +69,7 @@ Besides all that have good grip over data Analysis using multiple programming la
 <details>
   <summary>⚡ More about me</summary>
   <p>
-    Hello Again! I'm Aryan Mahida currently a student at Marwadi University. A enthusiastic learner persuing my <b> beacholors in Inforamtion and Communication Technology</b>.
+    Hello Again! I'm Aryan Mahida currently a student at Marwadi University. A enthusiastic learner Pursuing my <b> bachelor in `Infomation and Communication Technology`</b>.
     Currently I'm in my third year
   </p>
   <!-- Add more details about yourself -->
@@ -92,7 +92,7 @@ Besides all that have good grip over data Analysis using multiple programming la
 
 
 
-## 🔔 Vsistor Count
+## 🔔 visitor Count
 ![Visitor Count](https://profile-counter.glitch.me/aryan083/count.svg)
 
 
