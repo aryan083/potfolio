@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1e293b;
+  --secondary: #34d399;
+  --tertiary: #334155;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --accent: #34d399;
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-primary text-textPrimary;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 text-textPrimary border-2 border-accent hover:bg-accent/10 transition-all duration-300;
+  }
+
+  .nav-link {
+    @apply cursor-pointer hover:text-accent transition-colors duration-300;
+  }
+
+  .nav-link.active {
+    @apply text-accent;
+  }
+
+  .mobile-nav {
+    @apply fixed top-0 left-0 w-full h-screen bg-primary/95 flex flex-col justify-center items-center;
+  }
+
+  .mobile-nav-link {
+    @apply px-4 py-6 w-full text-4xl text-center cursor-pointer hover:text-accent transition-colors duration-300;
+  }
+
+  .skill-card {
+    @apply bg-tertiary/30 backdrop-blur-sm rounded-xl border border-accent/20 hover:border-accent/40 transition-all duration-300;
+  }
+
+  .project-card {
+    @apply relative rounded-xl overflow-hidden transform transition-all duration-500 hover:scale-105;
+  }
+
+  .project-card-content {
+    @apply absolute inset-0 flex flex-col justify-end p-6 bg-gradient-to-t from-primary via-tertiary/90 to-transparent opacity-0 hover:opacity-100 transition-all duration-300;
+  }
+
+  .achievement-card {
+    @apply relative bg-tertiary/30 backdrop-blur-sm rounded-xl p-6 border border-accent/20 hover:border-accent/40 transition-all duration-300;
+  }
+
+  .contact-input {
+    @apply w-full p-4 bg-tertiary/50 rounded-lg border-2 border-accent/20 focus:border-accent outline-none transition-colors duration-300 text-textPrimary;
+  }
+}
+
+/* 3D Card Effects */
+.perspective {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-primary;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-accent/20 hover:bg-accent/40 rounded-full transition-colors duration-300;
+}
+
+/* Form input autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #e0aaff;
+  -webkit-box-shadow: 0 0 0px 1000px #240046 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
