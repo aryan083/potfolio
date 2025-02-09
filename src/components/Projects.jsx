@@ -16,8 +16,8 @@ const Projects = () => {
         'Interactive learning resources'
       ],
       techIcons: [<FaJava className="text-[#007396]" />],
-      github: 'https://github.com/yourusername/education-tool',
-      live: 'https://education-tool-demo.com'
+      github: 'https://github.com/aryan083/Edu-interface',
+      live: '#'
     },
     {
       id: 2,
@@ -37,8 +37,8 @@ const Projects = () => {
         <SiFlask className="text-[#000000]" />,
         <SiBootstrap className="text-[#7952B3]" />
       ],
-      github: 'https://github.com/yourusername/emojifier',
-      live: 'https://emojifier-demo.com'
+      github: 'https://github.com/aryan083/emojifier',
+      live: 'https://huggingface.co/spaces/aryan083/Emojifier'
     },
     {
       id: 3,
@@ -55,8 +55,8 @@ const Projects = () => {
         <SiPhp className="text-[#777BB4]" />,
         <SiMysql className="text-[#4479A1]" />
       ],
-      github: 'https://github.com/yourusername/project-management',
-      live: 'https://project-management-demo.com'
+      github: 'https://github.com/aryan083/IWT_SMPS',
+      live: '#'
     }
   ];
 

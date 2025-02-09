@@ -1,5 +1,9 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [React()],
+  plugins: [react()],
   server: {
     port: 3000,
     open: true,
@@ -8,5 +12,5 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: true,
   },
-  base: '/potfolio/'
+  base: '/potfolio/' // This ensures correct asset paths
 })
