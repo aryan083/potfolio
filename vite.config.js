@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(),vercel()],
   server: {
     port: 3000,
     open: true,
@@ -12,5 +12,5 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: true,
   },
-  base: '/' // This ensures correct asset paths
+  base:'/potfolio/'
 })

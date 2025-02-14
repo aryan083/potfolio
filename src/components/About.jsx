@@ -134,7 +134,7 @@ const About = () => {
               {/* Photo Frame */}
               <div className="relative rounded-2xl overflow-hidden border-2 border-accent/20 shadow-xl">
                 <img
-                  src={"../public/aryan.jpg"}
+                  src={"../../public/aryan.jpg"}
                   alt="My profile"
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                 />
