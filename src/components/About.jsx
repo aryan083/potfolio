@@ -1,9 +1,14 @@
 import { motion } from 'framer-motion';
 import { FaCode, FaServer } from 'react-icons/fa';
 import { BiNetworkChart } from "react-icons/bi";
-
-
+import { useEffect } from 'react';
+import profileImage from '../assets/images/aryan.jpg';
 const About = () => {
+  useEffect(() => {
+    console.log('Base URL:', import.meta.env.BASE_URL);
+    console.log('Image path:', `${import.meta.env.BASE_URL}images/aryan.jpg`);
+  }, []);
+
   // Background shapes configuration
   const shapes = [
     { type: 'circle', size: 'w-24 h-24', position: 'top-20 left-10', delay: 0 },
@@ -134,7 +139,7 @@ const About = () => {
               {/* Photo Frame */}
               <div className="relative rounded-2xl overflow-hidden border-2 border-accent/20 shadow-xl">
                 <img
-                  src={"../../public/images/aryan.jpg"}
+                  src={profileImage}
                   alt="My profile"
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                 />

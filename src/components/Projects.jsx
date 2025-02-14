@@ -17,7 +17,7 @@ const Projects = () => {
       ],
       techIcons: [<FaJava className="text-[#007396]" />],
       github: 'https://github.com/aryan083/Edu-interface',
-      live: '#'
+      live: null  // Change '#' to null if there's no live link
     },
     {
       id: 2,
@@ -56,7 +56,7 @@ const Projects = () => {
         <SiMysql className="text-[#4479A1]" />
       ],
       github: 'https://github.com/aryan083/IWT_SMPS',
-      live: '#'
+      live: null  // Change '#' to null if there's no live link
     }
   ];
 
@@ -199,39 +199,43 @@ const Projects = () => {
 
                     {/* Links */}
                     <div className="flex items-center gap-4 pt-4">
-                      <motion.a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                        className="text-2xl text-textSecondary hover:text-accent transition-colors duration-300"
-                      >
-                        <FaGithub />
-                      </motion.a>
-                      <motion.a
-                        href={project.live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                        className="text-2xl text-textSecondary hover:text-accent transition-colors duration-300"
-                      >
-                        <FaExternalLinkAlt />
-                      </motion.a>
+                      {project.github && (
+                        <motion.a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          whileHover={{ scale: 1.1 }}
+                          whileTap={{ scale: 0.9 }}
+                          className="text-2xl text-textSecondary hover:text-accent transition-colors duration-300"
+                        >
+                          <FaGithub />
+                        </motion.a>
+                      )}
+                      {project.live && project.live !== '#' && (
+                        <motion.a
+                          href={project.live}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          whileHover={{ scale: 1.1 }}
+                          whileTap={{ scale: 0.9 }}
+                          className="text-2xl text-textSecondary hover:text-accent transition-colors duration-300"
+                        >
+                          <FaExternalLinkAlt />
+                        </motion.a>
+                      )}
                     </div>
                   </div>
 
                   {/* 3D Elements */}
                   <div
-                    className="absolute inset-0 rounded-2xl bg-gradient-to-br from-accent/5 to-secondary/5"
+                    className="absolute inset-0 rounded-2xl bg-gradient-to-br from-accent/5 to-secondary/5 pointer-events-none"
                     style={{
                       transform: 'translateZ(-50px)',
                       transformStyle: 'preserve-3d',
                     }}
                   />
                   <div
-                    className="absolute -top-0.5 -bottom-0.5 -left-0.5 -right-0.5 rounded-2xl bg-gradient-to-br from-accent/10 to-secondary/10"
+                    className="absolute -top-0.5 -bottom-0.5 -left-0.5 -right-0.5 rounded-2xl bg-gradient-to-br from-accent/10 to-secondary/10 pointer-events-none"
                     style={{
                       transform: 'translateZ(-25px)',
                       transformStyle: 'preserve-3d',
